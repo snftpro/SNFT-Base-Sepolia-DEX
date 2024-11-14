@@ -132,8 +132,8 @@ const Home: NextPage = () => {
         }}>
           <div 
             >
-           <h2 style={{textAlign: "center"}}>Base Sepolia Swap</h2>
-           <h5 style={{textAlign: "center"}}>Swap ETH to SNFT Tokens</h5>
+           <h2 style={{textAlign: "center", paddingLeft: "50px"}}>Base Sepolia Swap</h2>
+           <h5 style={{textAlign: "center", paddingLeft: "50px"}}>Swap ETH to SNFT Tokens</h5>
 
             <SwapInput
               current={currentFrom as string}
